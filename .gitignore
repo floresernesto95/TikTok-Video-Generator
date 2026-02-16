@@ -1,0 +1,19 @@
+# Security
+.env
+
+# Python compilation files
+__pycache__/
+*.pyc
+
+# Project folders
+background_music/
+final_videos/
+temp_work/
+
+# Runtime logs and tracking
+processed_topics.txt
+pending_topics.txt
+
+# System/IDE files
+.DS_Store
+.vscode/

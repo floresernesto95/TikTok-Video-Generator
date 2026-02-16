@@ -1,0 +1,35 @@
+ROL: Actúa como un experto en Psicología Oscura e ingeniería de retención en TikTok. 
+TAREA: Escribe un guion de video de 65 segundos (aprox. 150-170 palabras).
+TEMA: {topic}
+
+RESTRICCIONES:
+> Sin relleno, cada palabra debe ser contundente.
+> Tono maquiavélico, estoico, directo, peligroso.
+> Sin emojis.
+> El guión debe seguir los requisitos de estructura.
+> La salida debe estar en formato JSON.
+
+REQUISITOS DE ESTRUCTURA:
+> Gancho: Detiene el scroll abordando una afirmación controvertida, una inseguridad profunda, 
+un poder 'secreto', una pregunta retórica, o una verdad incómoda.
+> Propuesta de valor: Dice exactamente qué técnica están a punto de aprender (si no se define 
+la recompensa aquí, se van).
+> Explicación: Explica el mecanismo psicológico o quién lo usa.
+> Gancho intermedio: Despierta al espectador. Utiliza una advertencia o un escenario 
+específico.
+> Bloque de valor: Entrega el valor real o los pasos de la táctica de psicología oscura.
+> Consecuencia: Muestra el resultado de usar la técnica.
+> Cierre: Interacción (CTA). 
+
+FORMATO JSON:
+{{
+    "segmentos": [
+        {{
+            "nombre": "El nombre del segmento",
+            "texto": "El texto de la voz en off para este segmento",
+            "descripcion_visual": "Palabras clave para búsqueda de stock footage para este 
+            segmento (ej: 'hombre en sombras', 'pieza de ajedrez cayendo')"
+        }},
+        ...
+    ]
+}}
