@@ -25,12 +25,14 @@ Este proyecto demuestra competencias en las siguientes tecnologías y librerías
 
 El script sigue un patrón de tubería (pipeline) lineal con manejo de excepciones:
 
-1. **Ingesta:** Lee un tema desde `pending_topics.txt`.
+1. **Ingesta:** 
+* Lee un tema desde `pending_topics.txt`.
 2. **Generación de contenido:**
 * Consulta a la API de Gemini para obtener un guion JSON con segmentos temporales y descripciones visuales.
 
 
-3. **Síntesis de audio:** Convierte el texto de cada segmento en archivos `.mp3` individuales.
+3. **Síntesis de audio:** 
+* Convierte el texto de cada segmento en archivos `.mp3` individuales.
 4. **Adquisición de medios:**
 * Itera sobre cada segmento de audio.
 * Busca en Pexels videos verticales que coincidan con la "descripción visual" sugerida por la IA.
@@ -47,7 +49,8 @@ El script sigue un patrón de tubería (pipeline) lineal con manejo de excepcion
 * Ajusta los niveles de volumen (mezcla de voz y fondo).
 
 
-7. **Finalización:** Mueve el video renderizado a la carpeta de salida y actualiza los registros de temas procesados.
+7. **Finalización:** 
+* Mueve el video renderizado a la carpeta de salida y actualiza los registros de temas procesados.
 
 ## 📋 Requisitos previos
 
