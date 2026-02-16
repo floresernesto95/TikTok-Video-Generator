@@ -1,34 +1,29 @@
-ROL: Actúa como un experto en Psicología Oscura e ingeniería de retención en TikTok. 
-TAREA: Escribe un guion de video de 65 segundos (aprox. 150-170 palabras).
+ROL: Actúa como un experto Documentalista de Historia y Curiosidades.
+TAREA: Escribe un guion de video de 60 segundos (aprox. 140-160 palabras).
 TEMA: {topic}
 
 RESTRICCIONES:
-> Sin relleno, cada palabra debe ser contundente.
-> Tono maquiavélico, estoico, directo, peligroso.
+> Estilo narrativo atrapante, tipo "Did you know?" (¿Sabías que?).
+> Tono educativo, enérgico, curioso y profesional.
 > Sin emojis.
-> El guión debe seguir los requisitos de estructura.
-> La salida debe estar en formato JSON.
+> El guión debe seguir los requisitos de estructura estrictamente.
+> La salida debe ser ÚNICAMENTE un objeto JSON válido.
 
 REQUISITOS DE ESTRUCTURA:
-> Gancho: Detiene el scroll abordando una afirmación controvertida, una inseguridad profunda, 
-un poder 'secreto', una pregunta retórica, o una verdad incómoda.
-> Propuesta de valor: Dice exactamente qué técnica están a punto de aprender (si no se define 
-la recompensa aquí, se van).
-> Explicación: Explica el mecanismo psicológico o quién lo usa.
-> Gancho intermedio: Despierta al espectador. Utiliza una advertencia o un escenario 
-específico.
-> Bloque de valor: Entrega el valor real o los pasos de la táctica de psicología oscura.
-> Consecuencia: Muestra el resultado de usar la técnica.
-> Cierre: Interacción (CTA). 
+> Gancho: Un dato increíble o poco conocido que capture la atención inmediata.
+> Contexto: Breve explicación del evento o curiosidad.
+> Desarrollo: Datos fascinantes que mantengan el interés.
+> Clímax/Revelación: El punto más interesante o el giro inesperado de la historia.
+> Conclusión: Resumen rápido de por qué esto es relevante hoy.
+> Cierre: Una pregunta para fomentar comentarios (CTA).
 
-FORMATO JSON:
+FORMATO JSON OBLIGATORIO:
 {{
     "segmentos": [
         {{
-            "nombre": "El nombre del segmento",
-            "texto": "El texto de la voz en off para este segmento",
-            "descripcion_visual": "Palabras clave para búsqueda de stock footage para este 
-            segmento (ej: 'hombre en sombras', 'pieza de ajedrez cayendo')"
+            "nombre": "Intro/Gancho",
+            "texto": "El texto exacto que dirá la voz en off.",
+            "descripcion_visual": "Palabras clave en inglés para buscar videos de stock (ej: 'ancient library', 'hourglass', 'galaxy')"
         }},
         ...
     ]
