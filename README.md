@@ -26,9 +26,7 @@ This project demonstrates competencies in the following technologies and librari
 The script follows a linear pipeline pattern with exception handling:
 
 1. **Ingestion:** Reads a topic from `pending_topics.txt`.
-2. **Content generation:**
-
-* Queries the Gemini API to get a JSON script with time segments and visual descriptions.
+2. **Content generation:** Queries the Gemini API to get a JSON script with time segments and visual descriptions.
 
 3. **Audio synthesis:** Converts the text of each segment into individual `.mp3` files.
 4. **Media acquisition:**
